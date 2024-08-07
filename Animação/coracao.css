@@ -1,0 +1,15 @@
+body {
+    text-align: center;
+    color:pink;
+}
+.coração {
+    font-size: 20px;
+    color: pink;
+    animation: beat .10s infinite alternate;
+    transform-origin: center;
+}
+@keyframes beat {
+    to {
+        transform: scale(6.9);
+    }
+}
